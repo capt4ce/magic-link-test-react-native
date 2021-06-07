@@ -1,0 +1,12 @@
+{
+  "name": "magic-react-native",
+  "displayName": "magic-react-native",
+  "expo": {
+    "name": "magic-react-native",
+    "slug": "magic-react-native",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
