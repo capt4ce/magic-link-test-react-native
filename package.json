@@ -4,13 +4,17 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "start": "react-native start"
+    "start": "react-native start",
+    "link": "react-native link @react-native-async-storage/async-storage"
   },
   "dependencies": {
+    "@magic-sdk/react-native": "^4.3.1",
+    "@react-native-async-storage/async-storage": "^1.15.5",
     "expo": "~41.0.1",
     "expo-splash-screen": "~0.10.2",
     "expo-status-bar": "~1.0.4",
     "expo-updates": "~0.5.4",
+    "node-libs-browser": "^2.2.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
@@ -18,7 +22,9 @@
     "react-native-reanimated": "~2.1.0",
     "react-native-screens": "~3.0.0",
     "react-native-unimodules": "~0.13.3",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "^11.6.5",
+    "web3": "^1.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
